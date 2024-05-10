@@ -1,7 +1,6 @@
 package com.ougi.callme.data.repository
 
 import com.ougi.callme.data.model.table.MessagingUsers
-import com.ougi.callme.data.model.table.TurnUsers
 import com.ougi.callme.domain.repository.DatabaseRepository
 import org.jetbrains.exposed.sql.Database
 import org.jetbrains.exposed.sql.SchemaUtils
