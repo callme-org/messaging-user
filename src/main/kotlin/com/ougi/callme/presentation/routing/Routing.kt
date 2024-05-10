@@ -6,7 +6,7 @@ import io.ktor.server.routing.*
 fun Application.configureRouting() {
     routing {
         route("/common") {
-            route("/messaging-user") {
+            route("/messaginguser") {
                 createUser()
                 updateUser()
                 getUserToken()
